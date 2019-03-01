@@ -21,11 +21,12 @@ function johnLennonFacts(arr){
 }
 
 function iLoveTheBeatles(num){
-  var k=[];
-  var i = 0;
+  let k=[];
+  let i = 0;
 
   do {
   i = i + 1;
-  result = result + i;
+  k.push('')
+
   } while (i < 15);
 }
