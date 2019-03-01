@@ -5,7 +5,7 @@ function theBeatlesPlay(mus, instru){
   let l=mus.length;
   let k= [];
   for (let counter=0; counter<l; counter++){
-    k.push( 'name plays instru'.replace('name', mus).replace('instru', instru))
+    k.push( 'name plays instru'.replace('name', mus[counter]).replace('instru', instru[counter]))
     console.log(k)
   }
   return k 
