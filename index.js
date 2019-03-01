@@ -6,6 +6,7 @@ function theBeatlesPlay(mus, instru){
   let k= [];
   for (let counter=0; counter<l; counter++){
     k.push( 'name plays instru'.replace('name', mus).replace('instru', instru))
+    console.log(k)
   }
   return k 
 }
@@ -13,7 +14,7 @@ function theBeatlesPlay(mus, instru){
 
 var musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
 var instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
-
+theBeatlesPlay(musicians, instruments)
 
 function johnLennonFacts(arr){
   let l = arr.length; 
