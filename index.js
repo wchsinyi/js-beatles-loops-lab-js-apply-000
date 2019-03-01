@@ -26,7 +26,7 @@ function iLoveTheBeatles(num){
 
   do {
   i = i + 1;
-  k.push('')
+  k.push('I love the Beatles!')
 
   } while (i < 15);
 }
